@@ -19,13 +19,41 @@ body {
     max-width: 115rem;
 }
 
-.card {
-    margin: 0 auto;
+.card,
+.notes {
+    margin: 0 auto 3rem;
     padding: 2rem;
-    text-align: center;
     font-size: 2rem;
     background-color: white;
 }
+
+.card {
+    text-align: center;
+}
+
+.notes__input {
+    display: block;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.notes__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.primary {
+    font-weight: 400;
+}
+
 
 .btn {
     margin: 0 1rem;
